@@ -1,0 +1,16 @@
+on:
+  # pull_request:
+    # types:
+      # - ready_for_review
+  issues:
+    types:
+      - opened
+  
+
+check_labels:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: acts-project/check-labels-action@master
+      with:
+        labels: Bug,Improvement,Infrastructue,New Feature
+        triage_label: Triage
