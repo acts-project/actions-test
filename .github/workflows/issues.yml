@@ -1,9 +1,4 @@
 on:
-  pull_request:
-    types:
-      - opened
-      - unlabeled
-      - labeled
   issues:
     types:
       - opened
