@@ -6,6 +6,7 @@ on:
     types:
       - opened
       - unlabeled
+      - labeled
   
 jobs:
   check_labels:
