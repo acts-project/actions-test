@@ -1,0 +1,11 @@
+on: 
+  push:
+  pull_request:
+  
+jobs:
+  my-job:
+    name: My Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait
+        run: sleep 60
