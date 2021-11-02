@@ -3,8 +3,8 @@ policy:
   - the devtools team has approved
 
 approval_rules:
-- name: the devtools team has approved
-  requires:
-    count: 1
-    teams:
-    - "acts-project/reviewers"
+#- name: the devtools team has approved
+#  requires:
+#    count: 1
+#    teams:
+#    - "acts-project/reviewers"
