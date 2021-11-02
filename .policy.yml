@@ -1,6 +1,6 @@
 policy:
-  approval:
-  - the devtools team has approved
+  #approval:
+  #- the devtools team has approved
 
 approval_rules:
 #- name: the devtools team has approved
